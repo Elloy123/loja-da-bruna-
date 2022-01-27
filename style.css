@@ -1,38 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+    height: auto;
+    background-color: rgb(130, 133, 130);
+}
+#header h1{ text-align: center;
 
-body{
+}
+#nav{
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    float: left;
+}
+#main{
+    width: 50%;
+    height:500px;
+    margin: auto;
+    background-color: rgb(214, 215, 247);
+    float: left;
+
+    
+    
+}
+#main-btn{
     width: 80%;
     margin: auto;
-    padding: 0px;
-}
-header{
-    padding: 10px;
-    background-color: rgba(12, 15, 194, 0.829);
-    text-align: center;
-    
-}
-ul{
-    position: relative;
-    text-decoration: none;
-    margin: 1px;
-    list-style: none
- 
-    
-}
-ul li{
-    padding: 5px;
-    border: 1px solid black;
     text-align: center;
 }
+#main-btn li {
 
-ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    
+    border-radius: 6px;
+    background-color: rgb(224, 216, 216);
+    border: 2px solid black;
+    list-style: none;
+}
+#main-btn  li:hover{
+    background-color: rgb(216, 212, 207);
 
 }
+#main-btn li a{
+    
+    text-decoration: none;
+    
+    
+}
 
-ul li:hover {
-
-    background-color: rgb(233, 223, 225);
+#footer{
+    
+    height: 200px;
+    background-color: gold;
+    clear: both;
 }
