@@ -1,0 +1,163 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #aba9a6;
+
+}
+.telefone1{
+    
+    list-style: none;
+    
+
+
+}
+.telefone1 li {
+    
+    
+    display: inline;
+}
+.telefone1 a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.navegacao{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    
+    height: 50px;
+    background-color: #ded0bd;
+    
+}
+.centro{
+    margin: auto;
+    
+}
+.navegacao li{
+    display: inline; 
+    
+}
+
+.navegacao a{
+   color: black;
+   text-decoration: none;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 100px;
+    background-color: #ded0bd;
+
+}
+.header li{
+    list-style: none;
+}
+.header a{
+text-decoration: none;
+color: black;
+}
+.end li {
+    display: inline;
+    padding-left: 50px;
+}
+.fretegratis{
+    height: auto;
+    margin-top: 0;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    background-color: #ded0bd;
+    
+    
+
+}
+.frete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.frete li{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.container{
+    display: flex;
+    
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+.container img{
+    width: 150px;
+    height: 150px;
+}
+.item1{
+    margin: auto;
+    border-radius: 5px;
+    background: rgb(255, 253, 249);
+    padding: 20px;
+    text-align: center;
+}
+.item1 button{
+    color: black;
+    background-color: rgba(26, 27, 26, 0.048);
+    border: outset;
+    width: 80px;
+    height: 50px;
+    border-radius: 20px;
+    }
+.atacado{
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+.rodape{
+    display: flex;
+    width: 100%;
+    min-height: 250px;
+    background-color: #ded0bd;
+    
+}
+.item2{
+    width: 320px;
+    margin: auto;
+    min-height: 150px;
+    padding-left: 10px;
+
+}
+
+.item2 ul{
+    list-style: none;
+
+}
+.item2 h4{
+margin-bottom: 10px;
+margin-left: 35px;
+
+}
+.item2 ul li:hover{
+    color:#ded0bd;
+}
+@media(max-width:700px)
+{
+    .rodape{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+    }
+
+
