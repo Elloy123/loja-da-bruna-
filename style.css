@@ -173,6 +173,10 @@ margin-left: 35px;
     .container{
         flex-direction: column;
     }
+    .item1{
+        width: 100%;
+    }
+
     }
 
 
