@@ -4,11 +4,12 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    background-color: #aba9a6;
+    background-color: #e2e2e2;
 
 }
 .telefone1{
-    
+    background-color: #ded0bd;
+    margin: 0;
     list-style: none;
     
 
@@ -25,7 +26,7 @@ body{
     padding-left: 10px;
 }
 .navegacao{
-    margin-top: 0;
+    margin: 0 ;
     display: flex;
     align-items: center;
     
@@ -43,13 +44,14 @@ body{
 }
 
 .navegacao a{
-   color: black;
-   text-decoration: none;
-   padding-left: 50px;
-   padding-right: 50px;
+    color: black;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .header{
     display: flex;
+    margin: 0;
     align-items: center;
     justify-content:space-between;
     height: 100px;
@@ -68,15 +70,12 @@ color: black;
     padding-left: 50px;
 }
 .fretegratis{
-    height: auto;
-    margin-top: 0;
+
     margin: auto;
     padding: 0;
     width: 80%;
-    background-color: #ded0bd;
-    
-    
-
+    background-color: #949390;
+    border-radius: 5px;
 }
 .frete {
     display: flex;
@@ -84,11 +83,13 @@ color: black;
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    
 }
 .frete li{
     text-decoration: none;
     color: black;
     text-align: center;
+    margin: auto;
 }
 .container{
     display: flex;
@@ -120,6 +121,12 @@ color: black;
     width: 80%;
     margin: auto;
     
+}
+.atacado h3{
+    text-align: center;
+}
+.atacado p{
+    text-align: justify;
 }
 
 
@@ -157,7 +164,15 @@ margin-left: 35px;
         text-align: center;
         
     }
-    
+    .header{
+        flex-direction: column;
+    }
+    .frete{
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
     }
 
 
