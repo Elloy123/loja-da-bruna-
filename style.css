@@ -28,18 +28,21 @@ body{
 .navegacao{
     margin: 0 ;
     display: flex;
-    align-items: center;
-    
+    justify-content: center;
+    width: 100%;
+    padding: 0;
     height: 50px;
     background-color: #ded0bd;
     
 }
-.centro{
+.centro ul{
     margin: auto;
+    
+
     
 }
 .navegacao li{
-    display: inline; 
+    display: inline;
     
 }
 
@@ -106,7 +109,7 @@ color: black;
     margin: auto;
     border-radius: 5px;
     background: rgb(255, 253, 249);
-    padding: 20px;
+    padding:0;
     text-align: center;
 }
 .item1 button{
@@ -166,15 +169,31 @@ margin-left: 35px;
     }
     .header{
         flex-direction: column;
+        
     }
     .frete{
         flex-direction: column;
+        
     }
     .container{
         flex-direction: column;
+        
     }
     .item1{
         width: 100%;
+        margin: 3px;
+        border-radius: 5px;
+    }
+    
+    .navegacao{
+        height: 150px;
+    }
+    .centro{
+        display: grid;
+    }
+    .end li {
+        display: inline;
+        padding: 0;
     }
 
     }
